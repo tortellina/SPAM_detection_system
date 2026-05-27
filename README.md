@@ -5,6 +5,7 @@ Instead of relying on heavy, resource-intensive deep learning models, this syste
 
 
 ##INSTALLATION
+
 To run this project, you need Python installed on your system. 
 
 All necessary libraries are managed through a standard requirements document.
