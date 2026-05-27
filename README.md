@@ -1,4 +1,5 @@
 #SPAM DETECTION SYSTEM USING NLP AND SUPPORT VECTOR CLASSIFICATION
+
 This project implements an automated, modular Natural Language Processing (NLP) pipeline designed to classify emails into two categories: legitimate (ham) or malicious (spam).
 Instead of relying on heavy, resource-intensive deep learning models, this system uses a streamlined machine learning framework. By pairing clean text preprocessing with a Linear Support Vector Classifier (LinearSVC), the project achieves high accuracy and ultra-fast processing speeds on moderate-sized email datasets.
 
