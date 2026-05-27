@@ -40,14 +40,7 @@ def data_cleaning(df):
     #removing stopwords from df_rd_label_num
     nltk.download("stopwords")
     stop_words = set(stopwords.words("english"))
-    # def remove_stopwords(text):
-    #     words = text.split()
-    #     filtered_words = [word for word in words if word.lower() not in stop_words]
-    #     return " ".join(filtered_words)
-
-    # df_rd_label_num["text"] = df_rd_label_num["text"].apply(remove_stopwords)
-    # print(df_rd_label_num["text"].iloc[0])
-
+    
     def preprocess_text(text):
         '''
         lowercase, removes puntuation and remove stop words
